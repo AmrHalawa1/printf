@@ -1,5 +1,5 @@
-#ifndef _MAIN_H
-#define _MAIN_H
+#ifndef MAIN_H
+#define MAIN_H
 #include <stdarg.h>
 #include <stdio.h>
 #include <unistd.h>
@@ -114,20 +114,3 @@ long int convert_size_number(long int num, int size);
 long int convert_size_unsgnd(unsigned long int num, int size);
 
 #endif
-#ifndef _PRINTF_H
-#define _PRINTF_H
-
-#include <stdarg.h>
-#include <stdio.h>
-#include <unistd.h>
-#include <limits.h>
-#include <stdlib.h>
-
-#define OUTPUT_BUF_SIZE 1024
-#define BUF_FLUSH -1
-
-#define NULL_STRING "(null)"
-#define PARAMS_INIT {0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
-#define CONVERT_LOWERCASE	1
-#define CONVERT_UNSIGNED	2
-
