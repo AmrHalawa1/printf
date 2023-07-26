@@ -7,7 +7,7 @@ Objective:
 Recreate the C library printf
 
 _putchar
-this function prints an individual character (similar to standard library putchar)
+ddthis function prints an individual character (similar to standard library putchar)
 
 printf
 The core function where the buffer is defined and freed. All other functions are called from here.
